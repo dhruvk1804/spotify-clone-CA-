@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Mooli&family=Open+Sans:ital@1&family=Poppins&family=Roboto&display=swap');
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(41, 41, 41); 
+}
+
+td{
+    border-radius: 10%;
+    border: collapse;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+}
+
+#Home{
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(69, 68, 68);
+}
+
+#search{
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#library{
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#createplaylist{
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#liked{
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#episodes{
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#fav{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#dailymix{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#discover{
+    display: flex;
+    justify-content: flex-start;;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#malayalam{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#dance{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+#edm{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+} 
+
+#install{
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+#arrow{
+    height: 30px;
+    width: 30px;
+    display: flex;
+}
+
+.play{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#likedsongs{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
